@@ -19,5 +19,5 @@ public interface BooksMapper {
 //      通过书名查询
       Books showBookByName(@Param("bookName") String bookName);
 //      模糊查询
-      List<Books> showBookByLike(@Param("bookName") String bookName);
+      List<emp> showBookByLike(@Param("bookName") String bookName);
 }
